@@ -44,9 +44,9 @@ For example, if the cart has 3 items and 3 of them are eligible for discount, th
 
 The discount logic is as follows:
 
-Buy 3 items in a list of products for a total of $10
-Buy 6 items in a list of products for a total of $17
-Buy 9 items in a list of products for a total of $20
+- Buy 3 items in a list of products for a total of $10
+- Buy 6 items in a list of products for a total of $17
+- Buy 9 items in a list of products for a total of $20
 
 Your function need to return the targets with a fixed amount so that the total discounted price is correct.
 
