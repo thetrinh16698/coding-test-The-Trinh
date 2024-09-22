@@ -18,9 +18,9 @@ For example:
 
 The discount logic is as follows:
 
-Buy 3 items in a list of products, get 10% off
-Buy 6 items in a list of products, get 17% off
-Buy 9 items in a list of products, get 20% off
+- Buy 3 items in a list of products, get 10% off
+- Buy 6 items in a list of products, get 17% off
+- Buy 9 items in a list of products, get 20% off
 
 The discount function will take in input objection and return "targets" along with the discount to be applied. Read more here: https://shopify.dev/docs/api/functions/reference/product-discounts/graphql
 
@@ -30,9 +30,9 @@ The current discount function allow 2 types of discount application: Percentage 
 
 The above example is a percentage discount. Here's an example of a fixed amount discount:
 
-Buy 3 items in a list of products, get $10 off
-Buy 6 items in a list of products, get $17 off
-Buy 9 items in a list of products, get $20 off
+- Buy 3 items in a list of products, get $10 off
+- Buy 6 items in a list of products, get $17 off
+- Buy 9 items in a list of products, get $20 off
 
 The targets in this case will make sure the applied target has distribution of the discount equally across all the items.
 
